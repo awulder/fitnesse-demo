@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.fitnesse.demo</groupId>
+  <artifactId>fitnesse-demo</artifactId>
+  <version>0.1-SNAPSHOT</version>
+
+  <repositories>
+    <repository>
+      <id>mvnrepository</id>
+      <name>MVN Repository</name>
+      <url>http://http://mvnrepository.com/artifact/</url>
+    </repository>
+  </repositories>
+
+  <properties>
+    <fitnesse.version>20111025</fitnesse.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.fitnesse</groupId>
+      <artifactId>fitnesse</artifactId>
+      <version>${fitnesse.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.xebia.incubator</groupId>
+      <artifactId>xebium</artifactId>
+      <version>0.8</version>
+    </dependency>
+    <dependency>
+      <groupId>org.fitnesse.plugins</groupId>
+      <artifactId>maven-classpath-plugin</artifactId>
+      <version>1.5</version>
+    </dependency>
+  </dependencies>
+  <profiles>
+    <profile>
+      <id>fitnesse</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>2.3.2</version>
+            <configuration>
+              <target>1.6</target>
+              <source>1.6</source>
+            </configuration>
+          </plugin>
+          <plugin>
+            <artifactId>maven-antrun-plugin</artifactId>
+            <version>1.6</version>
+            <executions>
+              <execution>
+                <id>start-fitnesse</id>
+                <phase>test</phase>
+                <configuration>
+                  <tasks>
+                    <echo taskname="fitnesse" message="Starting FitNesse ${fitnesse.version}..."/>
+                    <java classname="fitnesseMain.FitNesseMain" classpathref="maven.test.classpath" fork="true">
+                      <arg line="-p 8080"/>
+                      <arg line="-d ."/>
+                      <arg line="-e 0"/>
+                      <arg line="-r src/main/fitnesse/FitNesseRoot"/>
+                    </java>
+                  </tasks>
+                </configuration>
+                <goals>
+                  <goal>run</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+</project>

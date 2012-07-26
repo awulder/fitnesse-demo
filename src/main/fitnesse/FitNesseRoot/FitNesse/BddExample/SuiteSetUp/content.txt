@@ -1,0 +1,9 @@
+!1 Suite Set Up
+|import                    |
+|com.xebia.incubator.xebium|
+
+|library                |
+|selenium driver fixture|
+
+|script       |selenium driver fixture             |
+|start browser|firefox|on url|http://www.google.com|

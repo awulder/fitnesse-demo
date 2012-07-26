@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111024</FitNesseVersion>
+  <rootPath>GoogleBddTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>4</exceptions>
+    </counts>
+    <runTimeInMillis>2</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('22');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img22"/>
+	</a>
+&nbsp;
+	<span class="meta">Library</span>
+	<div class="hidden" id="22"><h2>Given</h2>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td class="error">scenario<hr/> <span class="fit_label">Could not find fixture: scenario.</span></td>
+		<td>Given Google is open</td>
+	</tr>
+	<tr>
+		<td colspan="2">Open Google</td>
+	</tr>
+</table>
+<br/><h2>When</h2>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td class="error">scenario<hr/> <span class="fit_label">Could not find fixture: scenario.</span></td>
+		<td>When I search for the term Xebium</td>
+	</tr>
+	<tr>
+		<td>Search for word</td>
+		<td>Xebium</td>
+	</tr>
+</table>
+<br/><h2>Then</h2>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td class="error">scenario<hr/> <span class="fit_label">Could not find fixture: scenario.</span></td>
+		<td colspan="2">Then the word Xebium is present on the page</td>
+	</tr>
+	<tr>
+		<td>Check word</td>
+		<td>Xebium</td>
+		<td>present on page</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><br/><table class="plain_text_table">
+	<tr class="hidden">
+		<td class="error">script<hr/> <span class="fit_label">Could not find fixture: script.</span></td>
+	</tr>
+	<tr>
+		<td>Given Google is open</td>
+	</tr>
+	<tr>
+		<td>When I search for the term Xebium</td>
+	</tr>
+	<tr>
+		<td>Then the word Xebium is present on the page</td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>GoogleBddTest</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

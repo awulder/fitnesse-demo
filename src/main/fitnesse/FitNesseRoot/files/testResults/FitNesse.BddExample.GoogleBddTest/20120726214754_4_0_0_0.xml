@@ -1,0 +1,772 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111024</FitNesseVersion>
+  <rootPath>GoogleBddTest</rootPath>
+    <result>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>2298</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('50');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img50"/>
+	</a>
+&nbsp;
+	<span class="meta">Precompiled Libraries</span>
+	<div class="hidden" id="50"><br/><div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('49');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img49"/>
+	</a>
+&nbsp;
+	<span class="meta">Included page: <a href="FitNesse.BddExample.ScenarioLibrary">.FitNesse.BddExample.ScenarioLibrary</a> <a href="FitNesse.BddExample.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="49"><h1>Scenarios</h1>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6405619590468911155>
+	<tr>
+		<td>scenario</td>
+		<td>Search for word</td>
+		<td>word</td>
+	</tr>
+	<tr>
+		<td>Type</td>
+		<td>@word</td>
+		<td>in searchbox</td>
+	</tr>
+	<tr>
+		<td colspan="3">Click Google Search</td>
+	</tr>
+</table>
+<br/><h1>Steps</h1>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6073338683953762455>
+	<tr>
+		<td>scenario</td>
+		<td colspan="4">Open Google</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>open</td>
+		<td>on</td>
+		<td>/</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2726269948587503958>
+	<tr>
+		<td>scenario</td>
+		<td>Check word</td>
+		<td>word</td>
+		<td colspan="2">present on page</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>assertTextPresent</td>
+		<td>on</td>
+		<td>@word</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2022377601713828255>
+	<tr>
+		<td>scenario</td>
+		<td>Type</td>
+		<td>word</td>
+		<td colspan="4">in searchbox</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>type</td>
+		<td>on</td>
+		<td>id=gbqfq</td>
+		<td>with</td>
+		<td>@word</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2596849666120563522>
+	<tr>
+		<td>scenario</td>
+		<td colspan="4">Click Google Search</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>clickAndWait</td>
+		<td>on</td>
+		<td>id=gbqfb</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/></div>
+</div>
+<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('51');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img51"/>
+	</a>
+&nbsp;
+	<span class="meta">Library</span>
+	<div class="hidden" id="51"><h2>Given</h2>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=3209913095846628083>
+	<tr>
+		<td>scenario</td>
+		<td>Given Google is open</td>
+	</tr>
+	<tr>
+		<td colspan="2">Open Google</td>
+	</tr>
+</table>
+<br/><h2>When</h2>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=5973071810469080579>
+	<tr>
+		<td>scenario</td>
+		<td>When I search for the term Xebium</td>
+	</tr>
+	<tr>
+		<td>Search for word</td>
+		<td>Xebium</td>
+	</tr>
+</table>
+<br/><h2>Then</h2>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6371707229335180683>
+	<tr>
+		<td>scenario</td>
+		<td colspan="2">Then the word Xebium is present on the page</td>
+	</tr>
+	<tr>
+		<td>Check word</td>
+		<td>Xebium</td>
+		<td>present on page</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/><br/><table class="plain_text_table" _TABLENUMBER=5891507745794440887>
+	<tr class="hidden">
+		<td>script</td>
+	</tr>
+	<tr>
+		<td class=pass>Given Google is open</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-6749601212364996811');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6749601212364996811"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-6749601212364996811"><table border="1" cellspacing="0" _TABLENUMBER=5504516711680463428 table_name="scriptTable_8_0/scriptTable_5">
+	<tr>
+		<td>scenario</td>
+		<td>Given Google is open</td>
+	</tr>
+	<tr>
+		<td colspan="2" class=pass>Open Google</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-6213841963955317510');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-6213841963955317510"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-6213841963955317510"><table border="1" cellspacing="0" _TABLENUMBER=7097203337868550375 table_name="scriptTable_8_0/scriptTable_5_0/scriptTable_1">
+	<tr>
+		<td>scenario</td>
+		<td colspan="4">Open Google</td>
+	</tr>
+	<tr>
+		<td><span class="pass">ensure</span></td>
+		<td>do</td>
+		<td>open</td>
+		<td>on</td>
+		<td>/</td>
+	</tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+	<tr>
+		<td class=pass>When I search for the term Xebium</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-2553847116979125624');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-2553847116979125624"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-2553847116979125624"><table border="1" cellspacing="0" _TABLENUMBER=7923898962400230237 table_name="scriptTable_8_1/scriptTable_6">
+	<tr>
+		<td>scenario</td>
+		<td>When I search for the term Xebium</td>
+	</tr>
+	<tr>
+		<td class=pass>Search for word</td>
+		<td class=pass>Xebium</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('1315951852386855216');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img1315951852386855216"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="1315951852386855216"><table border="1" cellspacing="0" _TABLENUMBER=337867397160296861 table_name="scriptTable_8_1/scriptTable_6_0/scriptTable_0">
+	<tr>
+		<td>scenario</td>
+		<td>Search for word</td>
+		<td>word</td>
+	</tr>
+	<tr>
+		<td class=pass>Type</td>
+		<td class=pass>Xebium</td>
+		<td class=pass>in searchbox</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-2248322294433060980');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-2248322294433060980"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-2248322294433060980"><table border="1" cellspacing="0" _TABLENUMBER=2837511012244866468 table_name="scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3">
+	<tr>
+		<td>scenario</td>
+		<td>Type</td>
+		<td>word</td>
+		<td colspan="4">in searchbox</td>
+	</tr>
+	<tr>
+		<td><span class="pass">ensure</span></td>
+		<td>do</td>
+		<td>type</td>
+		<td>on</td>
+		<td>id=gbqfq</td>
+		<td>with</td>
+		<td>Xebium</td>
+	</tr>
+</table></div>
+</div></TD></tr>
+	<tr>
+		<td colspan="3" class=pass>Click Google Search</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('7099079087638952778');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img7099079087638952778"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="7099079087638952778"><table border="1" cellspacing="0" _TABLENUMBER=8466712811735552281 table_name="scriptTable_8_1/scriptTable_6_0/scriptTable_0_1/scriptTable_4">
+	<tr>
+		<td>scenario</td>
+		<td colspan="4">Click Google Search</td>
+	</tr>
+	<tr>
+		<td><span class="pass">ensure</span></td>
+		<td>do</td>
+		<td>clickAndWait</td>
+		<td>on</td>
+		<td>id=gbqfb</td>
+	</tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+	<tr>
+		<td class=pass>Then the word Xebium is present on the page</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('9075434437832663277');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img9075434437832663277"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="9075434437832663277"><table border="1" cellspacing="0" _TABLENUMBER=8375090333919515472 table_name="scriptTable_8_2/scriptTable_7">
+	<tr>
+		<td>scenario</td>
+		<td colspan="2">Then the word Xebium is present on the page</td>
+	</tr>
+	<tr>
+		<td class=pass>Check word</td>
+		<td class=pass>Xebium</td>
+		<td class=pass>present on page</td>
+	<TD class=pass><div class="collapse_rim">
+	<a href="javascript:toggleCollapsable('-5552813656196509708');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img-5552813656196509708"/>
+	</a>
+	<span id="test_status" class=pass>Scenario</span>
+	<div class="hidden" id="-5552813656196509708"><table border="1" cellspacing="0" _TABLENUMBER=4295397243090472739 table_name="scriptTable_8_2/scriptTable_7_0/scriptTable_2">
+	<tr>
+		<td>scenario</td>
+		<td>Check word</td>
+		<td>word</td>
+		<td colspan="2">present on page</td>
+	</tr>
+	<tr>
+		<td><span class="pass">ensure</span></td>
+		<td>do</td>
+		<td>assertTextPresent</td>
+		<td>on</td>
+		<td>Xebium</td>
+	</tr>
+</table></div>
+</div></TD></tr>
+</table></div>
+</div></TD></tr>
+</table>
+]]></content>
+    <relativePageName>GoogleBddTest</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Search for word]]></col>
+                    <col><![CDATA[word]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Type]]></col>
+                    <col><![CDATA[@word]]></col>
+                    <col><![CDATA[in searchbox]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Click Google Search]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Open Google]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[open]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Check word]]></col>
+                    <col><![CDATA[word]]></col>
+                    <col><![CDATA[present on page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[assertTextPresent]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[@word]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Type]]></col>
+                    <col><![CDATA[word]]></col>
+                    <col><![CDATA[in searchbox]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[type]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[id=gbqfq]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[@word]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Click Google Search]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[clickAndWait]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[id=gbqfb]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given Google is open]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Open Google]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When I search for the term Xebium]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Search for word]]></col>
+                    <col><![CDATA[Xebium]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the word Xebium is present on the page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Check word]]></col>
+                    <col><![CDATA[Xebium]]></col>
+                    <col><![CDATA[present on page]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Given Google is open]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_0/scriptTable_5)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[When I search for the term Xebium]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_1/scriptTable_6)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Then the word Xebium is present on the page]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_2/scriptTable_7)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_0/scriptTable_5</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Given Google is open]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Open Google]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_0/scriptTable_5_0/scriptTable_1)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_0/scriptTable_5_0/scriptTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Open Google]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[open]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_1/scriptTable_6</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[When I search for the term Xebium]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Search for word]]></col>
+                    <col><![CDATA[Xebium]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_1/scriptTable_6_0/scriptTable_0)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_1/scriptTable_6_0/scriptTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Search for word]]></col>
+                    <col><![CDATA[word]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Type]]></col>
+                    <col><![CDATA[Xebium]]></col>
+                    <col><![CDATA[in searchbox]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Click Google Search]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_1/scriptTable_6_0/scriptTable_0_1/scriptTable_4)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Type]]></col>
+                    <col><![CDATA[word]]></col>
+                    <col><![CDATA[in searchbox]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[type]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[id=gbqfq]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[Xebium]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_1/scriptTable_6_0/scriptTable_0_1/scriptTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Click Google Search]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[clickAndWait]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[id=gbqfb]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_2/scriptTable_7</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Then the word Xebium is present on the page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Check word]]></col>
+                    <col><![CDATA[Xebium]]></col>
+                    <col><![CDATA[present on page]]></col>
+                    <col><![CDATA[pass(scenario:scriptTable_8_2/scriptTable_7_0/scriptTable_2)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_8_2/scriptTable_7_0/scriptTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Check word]]></col>
+                    <col><![CDATA[word]]></col>
+                    <col><![CDATA[present on page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(ensure)]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[assertTextPresent]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[Xebium]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_0/scriptTable_5_0/scriptTable_1_0, call, scriptTableActor, doOn, open, /]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_8_0/scriptTable_5_0/scriptTable_1_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_0/scriptTable_5_0/scriptTable_1_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_0/scriptTable_5_0/scriptTable_1_0</instructionId>
+          <col>4</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3_0, call, scriptTableActor, doOnWith, type, id=gbqfq, Xebium]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3_0</instructionId>
+          <col>4</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0/scriptTable_0_0/scriptTable_3_0</instructionId>
+          <col>6</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_1/scriptTable_6_0/scriptTable_0_1/scriptTable_4_0, call, scriptTableActor, doOn, clickAndWait, id=gbqfb]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0/scriptTable_0_1/scriptTable_4_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0/scriptTable_0_1/scriptTable_4_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_1/scriptTable_6_0/scriptTable_0_1/scriptTable_4_0</instructionId>
+          <col>4</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_8_2/scriptTable_7_0/scriptTable_2_0, call, scriptTableActor, doOn, assertTextPresent, Xebium]]]></instruction>
+        <slimResult><![CDATA[true]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_8_2/scriptTable_7_0/scriptTable_2_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>EnsureActionExpectation</type>
+                    <actual><![CDATA[true]]></actual>
+                              <expected><![CDATA[ensure]]></expected>
+                              <evaluationMessage><![CDATA[pass(ensure)]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_2/scriptTable_7_0/scriptTable_2_0</instructionId>
+          <col>2</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_8_2/scriptTable_7_0/scriptTable_2_0</instructionId>
+          <col>4</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

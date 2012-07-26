@@ -1,0 +1,19 @@
+!*> Library
+!2 Given
+|scenario|Given Google is open|
+|Open Google                  |
+
+!2 When
+|scenario       |When I search for the term Xebium|
+|Search for word|Xebium                           |
+
+!2 Then
+|scenario  |Then the word Xebium is present on the page|
+|Check word|Xebium           |present on page          |
+*!
+
+![ script
+Given Google is open
+When I search for the term Xebium
+Then the word Xebium is present on the page
+]!

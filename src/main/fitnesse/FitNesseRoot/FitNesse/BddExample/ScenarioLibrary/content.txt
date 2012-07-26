@@ -1,0 +1,17 @@
+!1 Scenarios
+|scenario|Search for word|word        |
+|Type    |@word          |in searchbox|
+|Click Google Search                  |
+
+!1 Steps
+|scenario|Open Google |
+|ensure  |do|open|on|/|
+
+|scenario|Check word|word             |present on page|
+|ensure  |do        |assertTextPresent|on    |@word   |
+
+|scenario|Type|word|in searchbox          |
+|ensure  |do  |type|on|id=gbqfq|with|@word|
+
+|scenario|Click Google Search        |
+|ensure  |do|clickAndWait|on|id=gbqfb|

@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111024</FitNesseVersion>
+  <rootPath>SuiteSetUp</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>7307</runTimeInMillis>
+    <content><![CDATA[<div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('40');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img40"/>
+	</a>
+&nbsp;
+	<span class="meta">Precompiled Libraries</span>
+	<div class="hidden" id="40"><br/><div class="collapse_rim">
+	<div style="float: right;" class="meta">
+		<a href="javascript:expandAll();">Expand All</a>
+ | 
+		<a href="javascript:collapseAll();">Collapse All</a>
+	</div>
+	<a href="javascript:toggleCollapsable('39');">
+		<img src="/files/images/collapsableClosed.gif" class="left" id="img39"/>
+	</a>
+&nbsp;
+	<span class="meta">Included page: <a href="FitNesse.BddExample.ScenarioLibrary">.FitNesse.BddExample.ScenarioLibrary</a> <a href="FitNesse.BddExample.ScenarioLibrary?edit&amp;redirectToReferer=true&amp;redirectAction=">(edit)</a></span>
+	<div class="hidden" id="39"><h1>Scenarios</h1>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2344098852171970094>
+	<tr>
+		<td>scenario</td>
+		<td>Search for word</td>
+		<td>word</td>
+	</tr>
+	<tr>
+		<td>Type</td>
+		<td>@word</td>
+		<td>in searchbox</td>
+	</tr>
+	<tr>
+		<td colspan="3">Click Google Search</td>
+	</tr>
+</table>
+<br/><h1>Steps</h1>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6605556728385216864>
+	<tr>
+		<td>scenario</td>
+		<td colspan="4">Open Google</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>open</td>
+		<td>on</td>
+		<td>/</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=7673688655862303891>
+	<tr>
+		<td>scenario</td>
+		<td>Check word</td>
+		<td>word</td>
+		<td colspan="2">present on page</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>assertTextPresent</td>
+		<td>on</td>
+		<td>@word</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=6316964389313854627>
+	<tr>
+		<td>scenario</td>
+		<td>Type</td>
+		<td>word</td>
+		<td colspan="4">in searchbox</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>type</td>
+		<td>on</td>
+		<td>id=gbqfq</td>
+		<td>with</td>
+		<td>@word</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=2441397958301847554>
+	<tr>
+		<td>scenario</td>
+		<td colspan="4">Click Google Search</td>
+	</tr>
+	<tr>
+		<td>ensure</td>
+		<td>do</td>
+		<td>clickAndWait</td>
+		<td>on</td>
+		<td>id=gbqfba</td>
+	</tr>
+</table>
+</div>
+</div>
+<br/></div>
+</div>
+<table border="1" cellspacing="0" _TABLENUMBER=2036767713335752850>
+	<tr>
+		<td>import</td>
+	</tr>
+	<tr>
+		<td>com.xebia.incubator.xebium</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=1700530734075746565>
+	<tr>
+		<td>library</td>
+	</tr>
+	<tr>
+		<td><span class="pass">selenium driver fixture</span></td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0" _TABLENUMBER=9174597729153851418>
+	<tr>
+		<td>script</td>
+		<td colspan="3"><span class="pass">selenium driver fixture</span></td>
+	</tr>
+	<tr>
+		<td>start browser</td>
+		<td>firefox</td>
+		<td>on url</td>
+		<td><a href="http://www.google.com">http://www.google.com</a></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>SuiteSetUp</relativePageName>
+    
+        <tables>
+            <table>
+        <name>scenarioTable_0</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Search for word]]></col>
+                    <col><![CDATA[word]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Type]]></col>
+                    <col><![CDATA[@word]]></col>
+                    <col><![CDATA[in searchbox]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[Click Google Search]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_1</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Open Google]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[open]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[/]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_2</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Check word]]></col>
+                    <col><![CDATA[word]]></col>
+                    <col><![CDATA[present on page]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[assertTextPresent]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[@word]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_3</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Type]]></col>
+                    <col><![CDATA[word]]></col>
+                    <col><![CDATA[in searchbox]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[type]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[id=gbqfq]]></col>
+                    <col><![CDATA[with]]></col>
+                    <col><![CDATA[@word]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scenarioTable_4</name>
+                <row>
+                    <col><![CDATA[scenario]]></col>
+                    <col><![CDATA[Click Google Search]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[ensure]]></col>
+                    <col><![CDATA[do]]></col>
+                    <col><![CDATA[clickAndWait]]></col>
+                    <col><![CDATA[on]]></col>
+                    <col><![CDATA[id=gbqfba]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>import_5</name>
+                <row>
+                    <col><![CDATA[import]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[com.xebia.incubator.xebium]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>library_6</name>
+                <row>
+                    <col><![CDATA[library]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[pass(selenium driver fixture)]]></col>
+          
+        </row>
+        
+      </table>
+            <table>
+        <name>scriptTable_7</name>
+                <row>
+                    <col><![CDATA[script]]></col>
+                    <col><![CDATA[pass(selenium driver fixture)]]></col>
+          
+        </row>
+                <row>
+                    <col><![CDATA[start browser]]></col>
+                    <col><![CDATA[firefox]]></col>
+                    <col><![CDATA[on url]]></col>
+                    <col><![CDATA[<a href="http://www.google.com">http://www.google.com</a>]]></col>
+          
+        </row>
+        
+      </table>
+      
+    </tables>
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction><![CDATA[[import_5_0, import, com.xebia.incubator.xebium]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[library_6_0, make, library1, SeleniumDriverFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>library_6_0</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[selenium driver fixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(selenium driver fixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_0, make, scriptTableActor, SeleniumDriverFixture]]]></instruction>
+        <slimResult><![CDATA[OK]]></slimResult>
+                <expectation>
+          <status>right</status>
+          <instructionId>scriptTable_7_0</instructionId>
+          <col>1</col>
+          <row>0</row>
+          <type>ConstructionExpectation</type>
+                    <actual><![CDATA[OK]]></actual>
+                              <expected><![CDATA[selenium driver fixture]]></expected>
+                              <evaluationMessage><![CDATA[pass(selenium driver fixture)]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction><![CDATA[[scriptTable_7_1, call, scriptTableActor, startBrowserOnUrl, firefox, <a href="http://www.google.com">http://www.google.com</a>]]]></instruction>
+        <slimResult><![CDATA[/__VOID__/]]></slimResult>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1</instructionId>
+          <col>1</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1</instructionId>
+          <col>3</col>
+          <row>1</row>
+          <type>ArgumentExpectation</type>
+                                        <evaluationMessage><![CDATA[]]></evaluationMessage>
+                  </expectation>
+                <expectation>
+          <status>ignored</status>
+          <instructionId>scriptTable_7_1</instructionId>
+          <col>0</col>
+          <row>1</row>
+          <type>ScriptActionExpectation</type>
+                    <actual><![CDATA[/__VOID__/]]></actual>
+                              <expected><![CDATA[start browser]]></expected>
+                              <evaluationMessage><![CDATA[start browser]]></evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

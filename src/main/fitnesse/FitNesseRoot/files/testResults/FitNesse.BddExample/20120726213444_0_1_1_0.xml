@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20111024</FitNesseVersion>
+  <rootPath>BddExample</rootPath>
+    <pageHistoryReference>
+    <name>FitNesse.BddExample.SuiteSetUp</name>
+    <date>07/26/2012 21:34:44</date>
+    <pageHistoryLink>FitNesse.BddExample.SuiteSetUp?pageHistory&amp;resultDate=20120726213444</pageHistoryLink>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>7382</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>FitNesse.BddExample.GoogleBddTest</name>
+    <date>07/26/2012 21:34:51</date>
+    <pageHistoryLink>FitNesse.BddExample.GoogleBddTest?pageHistory&amp;resultDate=20120726213451</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>2</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>1438</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>0</right>
+    <wrong>1</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>93878</totalRunTimeInMillis>
+
+</suiteResults>
+

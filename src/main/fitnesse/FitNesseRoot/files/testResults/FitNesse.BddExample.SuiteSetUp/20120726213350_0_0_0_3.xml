@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20111024</FitNesseVersion>
+  <rootPath>SuiteSetUp</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <runTimeInMillis>5</runTimeInMillis>
+    <content><![CDATA[<table border="1" cellspacing="0">
+	<tr>
+		<td class="error">import<hr/> <span class="fit_label">Could not find fixture: import.</span></td>
+	</tr>
+	<tr>
+		<td>com.xebia.incubator.xebium</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td class="error">library<hr/> <span class="fit_label">Could not find fixture: library.</span></td>
+	</tr>
+	<tr>
+		<td>selenium driver fixture</td>
+	</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+	<tr>
+		<td class="error">script<hr/> <span class="fit_label">Could not find fixture: script.</span></td>
+		<td colspan="3">selenium driver fixture</td>
+	</tr>
+	<tr>
+		<td>start browser</td>
+		<td>firefox</td>
+		<td>on url</td>
+		<td><a href="http://www.google.com">http://www.google.com</a></td>
+	</tr>
+</table>
+]]></content>
+    <relativePageName>SuiteSetUp</relativePageName>
+    
+    
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+
